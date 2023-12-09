@@ -1,0 +1,175 @@
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+input {
+    border: none;
+    background: none;
+    padding-bottom: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+    color: white;
+    outline: none;
+}
+
+.inputSearch {
+    background: #2a2a2b;
+}
+
+nav {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #4F4D53;
+    justify-content: space-around;
+    display: flex;
+}
+
+.searchImg {
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.logo {
+    width: 50px;
+    height: 28px;
+    padding-top: 5px;
+}
+
+header {
+    background-image: url(media/img_hero.jpg);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 100px;
+    padding-top: 180px;
+    text-align: center;
+    color: #4F4D53;
+}
+
+h2 {
+    font-size: 64px;
+    color: #E8BE02;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #E8BE02;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4F4D53;
+    text-align: center;
+    margin: auto;
+    width: 780px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4F4D53;
+}
+
+.circlePhoto {
+    border-radius: 100%;
+    margin-bottom: -330px;
+}
+
+.heroBlock {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 950px;
+    margin: auto;
+}
+
+.contactBlock {
+    display: flex;
+    max-width: 620px;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 75px;
+}
+
+.contactText {
+    margin-top: 25px;
+}
+
+.contactTextDanielle {
+    margin-top: 15px;
+}
+
+.contactImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-right: 25px;
+}
+
+.contactBlockElement {
+    display: flex;
+}
+
+footer {
+    margin-top: 100px;
+    border-top: 12px solid#E8BE02;
+    background: #4F4D53;
+    height: 200px;
+    padding-top: 45px;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footerInfo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
